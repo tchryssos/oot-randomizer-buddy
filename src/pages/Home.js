@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
+import { NavBar } from 'components'
 import SimpleView from './SimpleView'
 import ComplexView from './ComplexView'
+import './styles.scss'
 
 export default class Home extends PureComponent {
 	constructor() {
@@ -10,7 +12,14 @@ export default class Home extends PureComponent {
 		}
 	}
 
+	viewSwitcher = () => (this.state.isSimpleView ? <SimpleView /> : <ComplexView />)
+
 	render() {
-		return this.state.isSimpleView ? <SimpleView /> : <ComplexView />
+		return (
+			<div className="homeWrapper">
+				<NavBar />
+				{this.viewSwitcher()}
+			</div>
+		)
 	}
 }

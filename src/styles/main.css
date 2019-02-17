@@ -10,7 +10,8 @@
 
 body, html {
     height: 100%;
-    font-family: "ReturnofGanon", monospace;
+    font-family: "Charlemagne", monospace;
     background-color: #0c0423;
     color: white;
+    font-size: 24px;
 }
