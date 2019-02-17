@@ -1,3 +1,6 @@
+
+@import "~styles/_colors";
+
 @font-face {
     font-family: "ReturnofGanon";
     src: url("../assets/fonts/ReturnofGanon.ttf");
@@ -11,7 +14,7 @@
 body, html {
     height: 100%;
     font-family: "Charlemagne", monospace;
-    background-color: #0c0423;
-    color: white;
-    font-size: 24px;
+    background-color: $darkblue;
+    color: $gold;
+    font-size: 1.2em;
 }

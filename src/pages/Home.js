@@ -11,13 +11,14 @@ export default class Home extends PureComponent {
 			isSimpleView: false,
 		}
 	}
-
+	setComplex = () => this.setState({ isSimpleView: false })
+	setSimple = () => this.setState({ isSimpleView: true })
 	viewSwitcher = () => (this.state.isSimpleView ? <SimpleView /> : <ComplexView />)
 
 	render() {
 		return (
 			<div className="homeWrapper">
-				<NavBar />
+				<NavBar setComplex={this.setComplex} setSimple={this.setSimple} />
 				{this.viewSwitcher()}
 			</div>
 		)

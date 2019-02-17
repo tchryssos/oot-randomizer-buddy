@@ -1,3 +1,5 @@
+@import "~styles/_colors";
+
 .navBar {
     display: flex;
     justify-content: center;
@@ -8,4 +10,8 @@
 .viewButton {
     font-family: "Charlemagne";
     margin-left: 1em;
+    font-size: 1em;
+    background-color: $darkblue;
+    color: $gold;
+    border-color: $gold;
 }
