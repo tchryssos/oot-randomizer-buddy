@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "ReturnofGanon";
+    src: url("../assets/fonts/ReturnofGanon.ttf");
+}
+
+@font-face {
+    font-family: "Charlemagne";
+    src: url("../assets/fonts/Charlemagne.ttf");
+}
+
+body, html {
+    height: 100%;
+    font-family: "ReturnofGanon", monospace;
+    background-color: #0c0423;
+    color: white;
+}
