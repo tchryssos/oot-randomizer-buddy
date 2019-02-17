@@ -1,10 +1,16 @@
-import React from 'React'
+import React, { PureComponent } from 'react'
+import SimpleView from './SimpleView'
+import ComplexView from './ComplexView'
 
-export default function Home() {
-	return (
-		<>
-			<div>Whoa cool website</div>
-			<div>Peep this stack, react 16!</div>
-		</>
-	)
+export default class Home extends PureComponent {
+	constructor() {
+		super()
+		this.state = {
+			isSimpleView: false,
+		}
+	}
+
+	render() {
+		return this.state.isSimpleView ? <SimpleView /> : <ComplexView />
+	}
 }
