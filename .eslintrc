@@ -23,11 +23,13 @@
 		"indent": ["error", "tab", { "SwitchCase": 1 }],
 		"semi": [2, "never"],
 		"no-return-assign": 0,
+		"global-require": 0,
 
 		"import/no-named-as-default": 0,
 		"import/no-unresolved": [2, { "ignore": ["constants", "components"] } ],
 		"import/no-extraneous-dependencies": 0,
 		"import/extensions": ["never"],
+		"import/no-dynamic-require": 0,
 
 		"jsx-a11y/href-no-hash": 0,
 		"jsx-a11y/label-has-for": 0,

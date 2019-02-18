@@ -1,0 +1,10 @@
+@import "~styles/colors";
+@import "~styles/fonts";
+
+body, html {
+    height: 100%;
+    font-family: "Charlemagne", monospace;
+    background-color: $darkblue;
+    color: $gold;
+    font-size: 1.2em;
+}
