@@ -17,7 +17,7 @@ export default class Icon extends PureComponent {
 
 Icon.propTypes = {
 	reference: PropTypes.string,
-	size: PropTypes.oneOf('small', 'large'),
+	size: PropTypes.oneOf(['small', 'large']),
 }
 
 Icon.defaultProps = {

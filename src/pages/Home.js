@@ -1,14 +1,12 @@
 import React, { PureComponent } from 'react'
-import { NavBar } from 'components'
-import SimpleView from './SimpleView'
-import ComplexView from './ComplexView'
+import { SimpleView, ComplexView, NavBar } from 'components'
 import './styles.scss'
 
 export default class Home extends PureComponent {
 	constructor() {
 		super()
 		this.state = {
-			isSimpleView: false,
+			isSimpleView: true,
 		}
 	}
 	setComplex = () => this.setState({ isSimpleView: false })
