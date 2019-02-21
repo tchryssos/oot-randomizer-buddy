@@ -136,7 +136,7 @@ export const ITEMS = {
 	bullet_bag_30: {
 		name: 'Bullet Bag (30)',
 		ref: 'bullet_bag_30',
-		critical: true,
+		critical: false,
 		dungeon: false,
 		progression: {
 			0: 'bullet_bag_30',
@@ -265,14 +265,14 @@ export const ITEMS = {
 	deku_stick: {
 		name: 'Deku Stick',
 		ref: 'deku_stick',
-		critical: false,
+		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	dins_fire: {
 		name: 'Din\'s Fire',
 		ref: 'dins_fire',
-		critical: false,
+		critical: true,
 		dungeon: false,
 		progression: false,
 	},
@@ -362,7 +362,7 @@ export const ITEMS = {
 	fire_arrow: {
 		name: 'Fire Arrows',
 		ref: 'fire_arrow',
-		critical: true,
+		critical: false,
 		dungeon: false,
 		progression: false,
 	},
@@ -521,7 +521,7 @@ export const ITEMS = {
 	ice_arrow: {
 		name: 'Ice Arrow',
 		ref: 'ice_arrow',
-		critical: true,
+		critical: false,
 		dungeon: false,
 		progression: false,
 	},
@@ -776,17 +776,10 @@ export const ITEMS = {
 			10: 'claim_check',
 		},
 	},
-	poe: {
-		name: 'Poe',
-		ref: 'poe',
-		critical: false,
-		dungeon: false,
-		progression: false,
-	},
 	quiver_30: {
 		name: 'Quiver (30)',
 		ref: 'quiver_30',
-		critical: true,
+		critical: false,
 		dungeon: false,
 		progression: {
 			0: 'quiver_30',
@@ -816,13 +809,6 @@ export const ITEMS = {
 			2: 'quiver_50',
 		},
 	},
-	red_potion: {
-		name: 'Red Potion',
-		ref: 'red_potion',
-		critical: false,
-		dungeon: false,
-		progression: false,
-	},
 	rupee: {
 		name: 'Rupees, etc',
 		ref: 'rupee',
@@ -840,7 +826,7 @@ export const ITEMS = {
 	silver_gauntlets: {
 		name: 'Silver Gauntlets',
 		ref: 'silver_gauntlets',
-		critical: false,
+		critical: true,
 		dungeon: false,
 		progression: {
 			0: 'goron_bracelet',
@@ -1151,6 +1137,8 @@ export const ORDERED_ITEMS = [
 	ITEMS.bottle,
 	ITEMS.bottle,
 	ITEMS.bottle,
+	ITEMS.zeldas_letter,
+	ITEMS.rutos_letter,
 	...TRADE_SEQUENCE,
 	...MASK_SEQUENCE,
 	...EQUIPMENT,

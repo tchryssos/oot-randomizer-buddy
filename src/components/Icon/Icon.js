@@ -9,7 +9,7 @@ export default class Icon extends PureComponent {
 			<img
 				src={require(`../../static/images/${this.props.reference}.png`)}
 				alt={ALL_ITEMS[this.props.reference].name}
-				className={this.props.size}
+				className={`${this.props.size} iconImage`}
 			/>
 		)
 	}
