@@ -1,13 +1,13 @@
 import React, { PureComponent } from 'react'
-import { ITEMS } from 'constants/items'
+import { ORDERED_ITEMS } from 'constants/items'
 import { Icon } from 'components'
 import './styles.scss'
 
 export default class SimpleView extends PureComponent {
 	itemGrid = () => (
-		Object.keys(ITEMS)
-			.filter(itemRef => ITEMS[itemRef].critical)
-			.map(itemRef => <Icon size="large" reference={itemRef} />)
+		ORDERED_ITEMS
+			.filter(item => item.critical)
+			.map(item => <Icon size="large" reference={item.ref} />)
 	)
 	render() {
 		return (
