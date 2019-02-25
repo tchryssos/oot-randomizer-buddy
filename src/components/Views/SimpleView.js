@@ -7,7 +7,7 @@ export default class SimpleView extends PureComponent {
 	itemGrid = () => (
 		ORDERED_ITEMS
 			.filter(item => item.critical)
-			.map(item => <Icon size="large" reference={item.ref} />)
+			.map(item => <Icon key={item.ref} size="large" reference={item.ref} />)
 	)
 	render() {
 		return (

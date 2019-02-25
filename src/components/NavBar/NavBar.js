@@ -1,30 +1,27 @@
-import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
+import DisplayContext from 'contexts/display'
 import './styles.scss'
 
-export default class NavBar extends PureComponent {
-	render() {
-		return (
+const NavBar = () => (
+	<DisplayContext.Consumer>
+		{({ setSimple, setComplex }) => (
 			<div className="navBar">
 				<button
 					className="viewButton"
-					onClick={this.props.setSimple}
+					onClick={setSimple}
 				>
 					Simple View
 				</button>
 				<button
 					className="viewButton"
-					onClick={this.props.setComplex}
+					onClick={setComplex}
 					name="Complex View"
 				>
 					Complex View
 				</button>
 			</div>
-		)
-	}
-}
+		)}
+	</DisplayContext.Consumer>
+)
 
-NavBar.propTypes = {
-	setComplex: PropTypes.func,
-	setSimple: PropTypes.func,
-}
+export default NavBar

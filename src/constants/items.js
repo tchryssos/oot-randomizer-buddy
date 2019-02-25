@@ -722,7 +722,7 @@ export const ITEMS = {
 	poachers_saw: {
 		name: 'Poacher\'s Saw',
 		ref: 'poachers_saw',
-		critical: true,
+		critical: false,
 		dungeon: false,
 		progression: {
 			0: 'pocket_egg',
