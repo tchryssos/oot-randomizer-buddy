@@ -4,20 +4,19 @@ import './styles.scss'
 
 const NavBar = () => (
 	<DisplayContext.Consumer>
-		{({ setSimple, setComplex }) => (
+		{({ toggleView, toggleRequired }) => (
 			<div className="navBar">
 				<button
 					className="viewButton"
-					onClick={setSimple}
+					onClick={toggleView}
 				>
-					Simple View
+					Toggle Item List View
 				</button>
 				<button
 					className="viewButton"
-					onClick={setComplex}
-					name="Complex View"
+					onClick={toggleRequired}
 				>
-					Complex View
+					Show Only Required Items
 				</button>
 			</div>
 		)}

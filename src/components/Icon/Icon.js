@@ -4,12 +4,27 @@ import { ALL_ITEMS } from 'constants/items'
 import './styles.scss'
 
 export default class Icon extends PureComponent {
+	constructor(props) {
+		super(props)
+		this.state = {
+			isFound: false,
+		}
+	}
+
+	toggleItemFound = () => this.setState({ isFound: !this.state.isFound })
+
 	render() {
 		return (
 			<img
 				src={require(`../../static/images/${this.props.reference}.png`)}
 				alt={ALL_ITEMS[this.props.reference].name}
-				className={`${this.props.size} iconImage`}
+				className={`
+					iconImage
+					defaultStyles
+					found-${this.state.isFound}
+					${this.props.size}
+				`}
+				onClick={this.toggleItemFound}
 			/>
 		)
 	}
@@ -21,5 +36,5 @@ Icon.propTypes = {
 }
 
 Icon.defaultProps = {
-	size: 'small',
+	size: 'large',
 }

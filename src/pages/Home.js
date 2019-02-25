@@ -6,8 +6,9 @@ import './styles.scss'
 export default class Home extends PureComponent {
 	constructor() {
 		super()
-		const setComplex = () => this.setState({ isSimpleView: false })
-		const setSimple = () => this.setState({ isSimpleView: true })
+		const toggleView = () => this.setState({
+			isSimpleView: !this.state.isSimpleView,
+		})
 		const toggleRequired = () => this.setState({
 			isRequiredOnly: !this.state.isRequiredOnly,
 		})
@@ -18,8 +19,7 @@ export default class Home extends PureComponent {
 			isSimpleView: true,
 			isRequiredOnly: true,
 			isProgressionMode: false,
-			setSimple,
-			setComplex,
+			toggleView,
 			toggleRequired,
 			toggleProgressionMode,
 		}
