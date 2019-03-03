@@ -1,7 +1,7 @@
 export const ITEMS = {
 	adults_wallet: {
 		name: 'Adult\'s Wallet',
-		ref: 'adults_wallet',
+		reference: 'adults_wallet',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -11,14 +11,14 @@ export const ITEMS = {
 	},
 	big_poe: {
 		name: 'Big Poe',
-		ref: 'big_poe',
+		reference: 'big_poe',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	biggorons_sword: {
 		name: 'Biggoron\'s Sword',
-		ref: 'biggorons_sword',
+		reference: 'biggorons_sword',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -29,28 +29,28 @@ export const ITEMS = {
 	},
 	blue_fire: {
 		name: 'Blue Fire',
-		ref: 'blue_fire',
+		reference: 'blue_fire',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	blue_potion: {
 		name: 'Blue Potion',
-		ref: 'blue_potion',
+		reference: 'blue_potion',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	bomb: {
 		name: 'Bombs',
-		ref: 'bomb',
+		reference: 'bomb',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	bomb_bag_20: {
 		name: 'Bomb Bag (20)',
-		ref: 'bomb_bag_20',
+		reference: 'bomb_bag_20',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -61,7 +61,7 @@ export const ITEMS = {
 	},
 	bomb_bag_30: {
 		name: 'Bomb Bag (30)',
-		ref: 'bomb_bag_30',
+		reference: 'bomb_bag_30',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -72,7 +72,7 @@ export const ITEMS = {
 	},
 	bomb_bag_40: {
 		name: 'Bomb Bag (40)',
-		ref: 'bomb_bag_40',
+		reference: 'bomb_bag_40',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -83,40 +83,35 @@ export const ITEMS = {
 	},
 	bombchu: {
 		name: 'Bombchu',
-		ref: 'bombchu',
+		reference: 'bombchu',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	boomerang: {
 		name: 'Boomerang',
-		ref: 'boomerang',
+		reference: 'boomerang',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	boss_key: {
 		name: 'Boss Key',
-		ref: 'boss_key',
+		reference: 'boss_key',
 		critical: false,
 		dungeon: true,
 		progression: false,
 	},
 	bottle: {
 		name: 'Bottle',
-		ref: 'bottle',
+		reference: 'bottle',
 		critical: false,
 		dungeon: false,
-		progression: {
-			0: 'bottle',
-			1: 'bottle',
-			2: 'bottle',
-			3: 'bottle',
-		},
+		progression: false,
 	},
 	broken_goron_sword: {
 		name: 'Broken Goron Sword',
-		ref: 'broken_goron_sword',
+		reference: 'broken_goron_sword',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -135,7 +130,7 @@ export const ITEMS = {
 	},
 	bullet_bag_30: {
 		name: 'Bullet Bag (30)',
-		ref: 'bullet_bag_30',
+		reference: 'bullet_bag_30',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -146,7 +141,7 @@ export const ITEMS = {
 	},
 	bullet_bag_40: {
 		name: 'Bullet Bag (40)',
-		ref: 'bullet_bag_40',
+		reference: 'bullet_bag_40',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -157,7 +152,7 @@ export const ITEMS = {
 	},
 	bullet_bag_50: {
 		name: 'Bullet Bag (50)',
-		ref: 'bullet_bag_50',
+		reference: 'bullet_bag_50',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -168,7 +163,7 @@ export const ITEMS = {
 	},
 	bunny_hood: {
 		name: 'Bunny Hood',
-		ref: 'bunny_hood',
+		reference: 'bunny_hood',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -184,7 +179,7 @@ export const ITEMS = {
 	},
 	claim_check: {
 		name: 'Claim Check',
-		ref: 'claim_check',
+		reference: 'claim_check',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -203,7 +198,7 @@ export const ITEMS = {
 	},
 	cojiro: {
 		name: 'Cojiro',
-		ref: 'cojiro',
+		reference: 'cojiro',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -222,14 +217,14 @@ export const ITEMS = {
 	},
 	compass: {
 		name: 'Compass',
-		ref: 'compass',
+		reference: 'compass',
 		critical: false,
 		dungeon: true,
 		progression: false,
 	},
 	cucco: {
 		name: 'Cucco',
-		ref: 'cucco',
+		reference: 'cucco',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -239,21 +234,21 @@ export const ITEMS = {
 	},
 	deku_nut: {
 		name: 'Deku Nut',
-		ref: 'deku_nut',
+		reference: 'deku_nut',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	deku_seeds: {
 		name: 'Deku Seeds',
-		ref: 'deku_seeds',
+		reference: 'deku_seeds',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	deku_shield: {
 		name: 'Deku Shield',
-		ref: 'deku_shield',
+		reference: 'deku_shield',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -264,35 +259,35 @@ export const ITEMS = {
 	},
 	deku_stick: {
 		name: 'Deku Stick',
-		ref: 'deku_stick',
+		reference: 'deku_stick',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	dins_fire: {
 		name: 'Din\'s Fire',
-		ref: 'dins_fire',
+		reference: 'dins_fire',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	dungeon_map: {
 		name: 'Dungeon Map',
-		ref: 'dungeon_map',
+		reference: 'dungeon_map',
 		critical: false,
 		dungeon: true,
 		progression: false,
 	},
 	empty_bottle: {
 		name: 'Empty Bottle',
-		ref: 'empty_bottle',
+		reference: 'empty_bottle',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	eyeball_frog: {
 		name: 'Eyeball Frog',
-		ref: 'eyeball_frog',
+		reference: 'eyeball_frog',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -311,7 +306,7 @@ export const ITEMS = {
 	},
 	eyedrops: {
 		name: 'Eyedrops',
-		ref: 'eyedrops',
+		reference: 'eyedrops',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -330,14 +325,14 @@ export const ITEMS = {
 	},
 	fairy_bow: {
 		name: 'Fairy Bow',
-		ref: 'fairy_bow',
+		reference: 'fairy_bow',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	fairy_ocarina: {
 		name: 'Fairy Ocarina',
-		ref: 'fairy_ocarina',
+		reference: 'fairy_ocarina',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -347,42 +342,42 @@ export const ITEMS = {
 	},
 	fairy_slingshot: {
 		name: 'Fairy Slingshot',
-		ref: 'fairy_slingshot',
+		reference: 'fairy_slingshot',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	farores_wind: {
 		name: 'Farore\'s Wind',
-		ref: 'farores_wind',
+		reference: 'farores_wind',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	fire_arrow: {
 		name: 'Fire Arrows',
-		ref: 'fire_arrow',
+		reference: 'fire_arrow',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	fish: {
 		name: 'Fish',
-		ref: 'fish',
+		reference: 'fish',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	gerudo_card: {
 		name: 'Gerudo Card',
-		ref: 'gerudo_card',
+		reference: 'gerudo_card',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	gerudo_mask: {
 		name: 'Gerudo Mask',
-		ref: 'gerudo_mask',
+		reference: 'gerudo_mask',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -398,7 +393,7 @@ export const ITEMS = {
 	},
 	giants_wallet: {
 		name: 'Giant\'s Wallet',
-		ref: 'giants_wallet',
+		reference: 'giants_wallet',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -409,7 +404,7 @@ export const ITEMS = {
 	},
 	gold_scale: {
 		name: 'Gold Scale',
-		ref: 'gold_scale',
+		reference: 'gold_scale',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -419,7 +414,7 @@ export const ITEMS = {
 	},
 	golden_gauntlets: {
 		name: 'Golden Gauntlets',
-		ref: 'golden_gauntlets',
+		reference: 'golden_gauntlets',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -430,7 +425,7 @@ export const ITEMS = {
 	},
 	goron_bracelet: {
 		name: 'Goron Bracelet',
-		ref: 'goron_bracelet',
+		reference: 'goron_bracelet',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -441,7 +436,7 @@ export const ITEMS = {
 	},
 	goron_mask: {
 		name: 'Goron Mask',
-		ref: 'goron_mask',
+		reference: 'goron_mask',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -457,35 +452,35 @@ export const ITEMS = {
 	},
 	goron_tunic: {
 		name: 'Goron Tunic',
-		ref: 'goron_tunic',
+		reference: 'goron_tunic',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	green_potion: {
 		name: 'Green Potion',
-		ref: 'green_potion',
+		reference: 'green_potion',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	heart_container: {
 		name: 'Heart Container',
-		ref: 'heart_container',
+		reference: 'heart_container',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	heart_piece: {
 		name: 'Heart Piece',
-		ref: 'heart_piece',
+		reference: 'heart_piece',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	hookshot: {
 		name: 'Hookshot',
-		ref: 'hookshot',
+		reference: 'hookshot',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -495,21 +490,21 @@ export const ITEMS = {
 	},
 	magic_beans: {
 		name: 'Magic Beans',
-		ref: 'magic_beans',
+		reference: 'magic_beans',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	hover_boots: {
 		name: 'Hover Boots',
-		ref: 'hover_boots',
+		reference: 'hover_boots',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	hylian_shield: {
 		name: 'Hylian Shield',
-		ref: 'hylian_shield',
+		reference: 'hylian_shield',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -520,21 +515,21 @@ export const ITEMS = {
 	},
 	ice_arrow: {
 		name: 'Ice Arrow',
-		ref: 'ice_arrow',
+		reference: 'ice_arrow',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	iron_boots: {
 		name: 'Iron Boots',
-		ref: 'iron_boots',
+		reference: 'iron_boots',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	keaton_mask: {
 		name: 'Keaton Mask',
-		ref: 'keaton_mask',
+		reference: 'keaton_mask',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -550,7 +545,7 @@ export const ITEMS = {
 	},
 	kokiri_sword: {
 		name: 'Kokiri Sword',
-		ref: 'kokiri_sword',
+		reference: 'kokiri_sword',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -561,7 +556,7 @@ export const ITEMS = {
 	},
 	large_magic_jar: {
 		name: 'Full Magic',
-		ref: 'large_magic_jar',
+		reference: 'large_magic_jar',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -571,21 +566,21 @@ export const ITEMS = {
 	},
 	lens_of_truth: {
 		name: 'Lens of Truth',
-		ref: 'lens_of_truth',
+		reference: 'lens_of_truth',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	light_arrow: {
 		name: 'Light Arrow',
-		ref: 'light_arrow',
+		reference: 'light_arrow',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	longshot: {
 		name: 'Longshot',
-		ref: 'longshot',
+		reference: 'longshot',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -595,7 +590,7 @@ export const ITEMS = {
 	},
 	mask_of_truth: {
 		name: 'Mask of Truth',
-		ref: 'mask_of_truth',
+		reference: 'mask_of_truth',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -611,7 +606,7 @@ export const ITEMS = {
 	},
 	master_sword: {
 		name: 'Master Sword',
-		ref: 'master_sword',
+		reference: 'master_sword',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -622,21 +617,21 @@ export const ITEMS = {
 	},
 	megaton_hammer: {
 		name: 'Megaton Hammer',
-		ref: 'megaton_hammer',
+		reference: 'megaton_hammer',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	milk: {
 		name: 'Lon Lon Milk',
-		ref: 'milk',
+		reference: 'milk',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	mirror_shield: {
 		name: 'Mirror Shield',
-		ref: 'mirror_shield',
+		reference: 'mirror_shield',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -647,14 +642,14 @@ export const ITEMS = {
 	},
 	nayrus_love: {
 		name: 'Nayru\'s Love',
-		ref: 'nayrus_love',
+		reference: 'nayrus_love',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	ocarina_of_time: {
 		name: 'Ocarina of Time',
-		ref: 'ocarina_of_time',
+		reference: 'ocarina_of_time',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -664,7 +659,7 @@ export const ITEMS = {
 	},
 	odd_mushroom: {
 		name: 'Odd Mushroom',
-		ref: 'odd_mushroom',
+		reference: 'odd_mushroom',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -683,7 +678,7 @@ export const ITEMS = {
 	},
 	odd_potion: {
 		name: 'Odd Potion',
-		ref: 'odd_potion',
+		reference: 'odd_potion',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -702,7 +697,7 @@ export const ITEMS = {
 	},
 	perscription: {
 		name: 'Perscription',
-		ref: 'perscription',
+		reference: 'perscription',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -721,7 +716,7 @@ export const ITEMS = {
 	},
 	poachers_saw: {
 		name: 'Poacher\'s Saw',
-		ref: 'poachers_saw',
+		reference: 'poachers_saw',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -740,7 +735,7 @@ export const ITEMS = {
 	},
 	pocket_cucco: {
 		name: 'Pocket Cucco',
-		ref: 'pocket_cucco',
+		reference: 'pocket_cucco',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -759,7 +754,7 @@ export const ITEMS = {
 	},
 	pocket_egg: {
 		name: 'Pocket Egg',
-		ref: 'weird_egg',
+		reference: 'weird_egg',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -778,7 +773,7 @@ export const ITEMS = {
 	},
 	quiver_30: {
 		name: 'Quiver (30)',
-		ref: 'quiver_30',
+		reference: 'quiver_30',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -789,7 +784,7 @@ export const ITEMS = {
 	},
 	quiver_40: {
 		name: 'Quiver (40)',
-		ref: 'quiver_40',
+		reference: 'quiver_40',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -800,7 +795,7 @@ export const ITEMS = {
 	},
 	quiver_50: {
 		name: 'Quiver (50)',
-		ref: 'quiver_50',
+		reference: 'quiver_50',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -811,21 +806,21 @@ export const ITEMS = {
 	},
 	rupee: {
 		name: 'Rupees, etc',
-		ref: 'rupee',
+		reference: 'rupee',
 		critical: false,
 		dungeon: false,
 		progression: false,
 	},
 	rutos_letter: {
 		name: 'Ruto\'s Letter',
-		ref: 'rutos_letter',
+		reference: 'rutos_letter',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	silver_gauntlets: {
 		name: 'Silver Gauntlets',
-		ref: 'silver_gauntlets',
+		reference: 'silver_gauntlets',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -836,7 +831,7 @@ export const ITEMS = {
 	},
 	silver_scale: {
 		name: 'Silver Scale',
-		ref: 'silver_scale',
+		reference: 'silver_scale',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -846,7 +841,7 @@ export const ITEMS = {
 	},
 	skull_mask: {
 		name: 'Skull Mask',
-		ref: 'skull_mask',
+		reference: 'skull_mask',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -862,14 +857,14 @@ export const ITEMS = {
 	},
 	small_key: {
 		name: 'Small Key',
-		ref: 'small_key',
+		reference: 'small_key',
 		critical: false,
 		dungeon: true,
 		progression: false,
 	},
 	small_magic_jar: {
 		name: '1/2 Magic',
-		ref: 'small_magic_jar',
+		reference: 'small_magic_jar',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -879,7 +874,7 @@ export const ITEMS = {
 	},
 	spooky_mask: {
 		name: 'Spooky Mask',
-		ref: 'spooky_mask',
+		reference: 'spooky_mask',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -895,7 +890,7 @@ export const ITEMS = {
 	},
 	weird_egg: {
 		name: 'Weird Egg',
-		ref: 'weird_egg',
+		reference: 'weird_egg',
 		critical: true,
 		dungeon: false,
 		progression: {
@@ -905,14 +900,14 @@ export const ITEMS = {
 	},
 	zeldas_letter: {
 		name: 'Zelda\'s Letter',
-		ref: 'zeldas_letter',
+		reference: 'zeldas_letter',
 		critical: true,
 		dungeon: false,
 		progression: false,
 	},
 	zora_mask: {
 		name: 'Zora Mask',
-		ref: 'zora_mask',
+		reference: 'zora_mask',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -928,7 +923,7 @@ export const ITEMS = {
 	},
 	zora_tunic: {
 		name: 'Zora Tunic',
-		ref: 'zora_tunic',
+		reference: 'zora_tunic',
 		critical: true,
 		dungeon: false,
 		progression: false,
@@ -938,118 +933,118 @@ export const ITEMS = {
 export const SEALS = {
 	fire_medallion: {
 		name: 'Fire Medallion',
-		ref: 'fire_medallion',
+		reference: 'fire_medallion',
 	},
 	forest_medallion: {
 		name: 'Forest Medallion',
-		ref: 'forest_medallion',
+		reference: 'forest_medallion',
 	},
 	gorons_ruby: {
 		name: 'Goron\'s Ruby',
-		ref: 'gorons_ruby',
+		reference: 'gorons_ruby',
 	},
 	kokiri_emerald: {
 		name: 'Kokiri Emerald',
-		ref: 'kokiri_emerald',
+		reference: 'kokiri_emerald',
 	},
 	light_medallion: {
 		name: 'Light Medallion',
-		ref: 'light_medallion',
+		reference: 'light_medallion',
 	},
 	shadow_medallion: {
 		name: 'Shadow Medallion',
-		ref: 'shadow_medallion',
+		reference: 'shadow_medallion',
 	},
 	spirit_medallion: {
 		name: 'Spirit Medallion',
-		ref: 'spirit_medallion',
+		reference: 'spirit_medallion',
 	},
 	water_medallion: {
 		name: 'Water Medallion',
-		ref: 'water_medallion',
+		reference: 'water_medallion',
 	},
 	zoras_sapphire: {
 		name: 'Zora\'s Sapphire',
-		ref: 'zoras_sapphire',
+		reference: 'zoras_sapphire',
 	},
 }
 
 export const SONGS = {
 	bolero_of_fire: {
 		name: 'Bolero of Fire',
-		ref: 'bolero_of_fire',
+		reference: 'bolero_of_fire',
 		warp: true,
 		critical: false,
 	},
 	eponas_song: {
 		name: 'Epona\'s Song',
-		ref: 'eponas_song',
+		reference: 'eponas_song',
 		warp: false,
 		critical: false,
 	},
 	grey_note: {
 		name: '',
-		ref: 'grey_note',
+		reference: 'grey_note',
 		warp: true,
 		critical: false,
 	},
 	minuet_of_forest: {
 		name: 'Minuet of the Forest',
-		ref: 'minuet_of_forest',
+		reference: 'minuet_of_forest',
 		warp: true,
 		critical: false,
 	},
 	nocturne_of_shadows: {
 		name: 'Nocturne of Shadows',
-		ref: 'nocturne_of_shadows',
+		reference: 'nocturne_of_shadows',
 		warp: true,
 		critical: false,
 	},
 	prelude_of_light: {
 		name: 'Prelude of Light',
-		ref: 'prelude_of_light',
+		reference: 'prelude_of_light',
 		warp: true,
 		critical: false,
 	},
 	requiem_of_spirit: {
 		name: 'Requium of Spirit',
-		ref: 'requiem_of_spirit',
+		reference: 'requiem_of_spirit',
 		warp: true,
 		critical: false,
 	},
 	sarias_song: {
 		name: 'Saria\'s Song',
-		ref: 'sarias_song',
+		reference: 'sarias_song',
 		warp: false,
 		critical: true,
 	},
 	serenade_of_water: {
 		name: 'Serenade of Water',
-		ref: 'serenade_of_water',
+		reference: 'serenade_of_water',
 		warp: true,
 		critical: false,
 	},
 	song_of_storms: {
 		name: 'Song of Storms',
-		ref: 'song_of_storms',
+		reference: 'song_of_storms',
 		warp: false,
 		critical: false,
 	},
 	song_of_time: {
 		name: 'Song of Time',
-		ref: 'song_of_time',
+		reference: 'song_of_time',
 		warp: false,
 		critical: true,
 	},
 	suns_song: {
 		name: 'Sun\'s Song',
-		ref: 'suns_song',
+		reference: 'suns_song',
 		warp: false,
 		critical: false,
 	},
 	zeldas_lullaby: {
 		name: 'Zelda\'s Lullaby',
-		ref: 'zeldas_lullaby',
+		reference: 'zeldas_lullaby',
 		warp: false,
 		critical: true,
 	},

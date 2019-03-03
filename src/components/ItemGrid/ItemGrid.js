@@ -8,10 +8,16 @@ export default class ItemGrid extends PureComponent {
 	itemGrid = () => (
 		ORDERED_ITEMS
 			.filter(item => (this.context.isRequiredOnly ? item.critical : item))
+			.filter((item) => {
+				if (this.context.isProgressionMode && item.progression) {
+					return item.reference === item.progression[0]
+				}
+				return item
+			})
 			.map((item, i) => (
 				<Icon
-					key={`${item.ref}-${i}`}
-					reference={item.ref}
+					key={`${item.reference}-${i}`}
+					reference={item.reference}
 				/>
 			))
 	)
