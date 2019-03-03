@@ -1,4 +1,4 @@
 export Icon from './Icon'
-export NavBar from './NavBar'
+export Menu from './Menu'
 export { SimpleView, ComplexView } from './Views'
 export ItemGrid from './ItemGrid'

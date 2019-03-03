@@ -1,0 +1,18 @@
+@import "~styles/_colors";
+
+.menuWrapper {
+    width: 100%;
+}
+
+.menuButton {
+    background-color: $darkblue;
+    border: none;
+}
+
+.dropDown {
+    display: none;
+}
+
+.isMenuOpen-true {
+    display: block;
+}

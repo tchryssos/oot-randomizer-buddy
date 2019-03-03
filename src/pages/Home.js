@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import DisplayContext from 'contexts/display'
-import { SimpleView, ComplexView, NavBar } from 'components'
+import { SimpleView, ComplexView, Menu } from 'components'
 import './styles.scss'
 
 export default class Home extends PureComponent {
@@ -30,7 +30,7 @@ export default class Home extends PureComponent {
 		return (
 			<DisplayContext.Provider value={this.state}>
 				<div className="homeWrapper">
-					<NavBar />
+					<Menu />
 					{this.viewSwitcher()}
 				</div>
 			</DisplayContext.Provider>
