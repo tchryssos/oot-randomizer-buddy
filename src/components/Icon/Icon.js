@@ -51,7 +51,7 @@ export default class Icon extends PureComponent {
 					${this.props.size}
 				`}
 				onClick={this.onClick}
-				title={this.item.name}
+				title={item.name}
 			/>
 		)
 	}
