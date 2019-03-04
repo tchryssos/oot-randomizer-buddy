@@ -202,7 +202,7 @@ export const ITEMS = {
 		critical: false,
 		dungeon: false,
 		progression: {
-			0: 'pocket_egg',
+			0: 'pocked_egg',
 			1: 'pocket_cucco',
 			2: 'cojiro',
 			3: 'odd_mushroom',
@@ -310,7 +310,7 @@ export const ITEMS = {
 		critical: false,
 		dungeon: false,
 		progression: {
-			0: 'pocket_egg',
+			0: 'pocked_egg',
 			1: 'pocket_cucco',
 			2: 'cojiro',
 			3: 'odd_mushroom',
@@ -754,7 +754,7 @@ export const ITEMS = {
 	},
 	pocket_egg: {
 		name: 'Pocket Egg',
-		reference: 'weird_egg',
+		reference: 'pocket_egg',
 		critical: false,
 		dungeon: false,
 		progression: {
@@ -934,38 +934,47 @@ export const SEALS = {
 	fire_medallion: {
 		name: 'Fire Medallion',
 		reference: 'fire_medallion',
+		critical: true,
 	},
 	forest_medallion: {
 		name: 'Forest Medallion',
 		reference: 'forest_medallion',
+		critical: true,
 	},
 	gorons_ruby: {
 		name: 'Goron\'s Ruby',
 		reference: 'gorons_ruby',
+		critical: true,
 	},
 	kokiri_emerald: {
 		name: 'Kokiri Emerald',
 		reference: 'kokiri_emerald',
+		critical: true,
 	},
 	light_medallion: {
 		name: 'Light Medallion',
 		reference: 'light_medallion',
+		critical: true,
 	},
 	shadow_medallion: {
 		name: 'Shadow Medallion',
 		reference: 'shadow_medallion',
+		critical: true,
 	},
 	spirit_medallion: {
 		name: 'Spirit Medallion',
 		reference: 'spirit_medallion',
+		critical: true,
 	},
 	water_medallion: {
 		name: 'Water Medallion',
 		reference: 'water_medallion',
+		critical: true,
 	},
 	zoras_sapphire: {
 		name: 'Zora\'s Sapphire',
 		reference: 'zoras_sapphire',
+		critical: true,
 	},
 }
 
@@ -994,9 +1003,9 @@ export const SONGS = {
 		warp: true,
 		critical: false,
 	},
-	nocturne_of_shadows: {
+	nocturne_of_shadow: {
 		name: 'Nocturne of Shadows',
-		reference: 'nocturne_of_shadows',
+		reference: 'nocturne_of_shadow',
 		warp: true,
 		critical: false,
 	},
@@ -1133,10 +1142,39 @@ export const ORDERED_ITEMS = [
 	ITEMS.bottle,
 	ITEMS.bottle,
 	ITEMS.bottle,
+	ITEMS.weird_egg,
+	ITEMS.cucco,
 	...TRADE_SEQUENCE,
 	...MASK_SEQUENCE,
 	...EQUIPMENT,
 	...UPGRADES,
+]
+
+export const ORDERED_SONGS = [
+	SONGS.zeldas_lullaby,
+	SONGS.eponas_song,
+	SONGS.sarias_song,
+	SONGS.song_of_storms,
+	SONGS.suns_song,
+	SONGS.song_of_time,
+	SONGS.minuet_of_forest,
+	SONGS.bolero_of_fire,
+	SONGS.serenade_of_water,
+	SONGS.requiem_of_spirit,
+	SONGS.nocturne_of_shadow,
+	SONGS.prelude_of_light,
+]
+
+export const ORDERED_SEALS = [
+	SEALS.kokiri_emerald,
+	SEALS.gorons_ruby,
+	SEALS.zoras_sapphire,
+	SEALS.light_medallion,
+	SEALS.forest_medallion,
+	SEALS.fire_medallion,
+	SEALS.water_medallion,
+	SEALS.shadow_medallion,
+	SEALS.spirit_medallion,
 ]
 
 export const ALL_ITEMS = {

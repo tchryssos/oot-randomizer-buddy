@@ -2,6 +2,9 @@
 
 .menuWrapper {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menuButton {
@@ -17,6 +20,7 @@
     margin: 0.5rem;
     padding: 0.5rem;
     padding-bottom: 2rem;
+    z-index: 2;
 }
 
 .isMenuOpen-true {
@@ -27,9 +31,9 @@
 }
 
 .closeButton {
+    width: 100%;
     text-align: end;
     color: $gold;
-    width: 100%;
     cursor: pointer;
     font-size: 1rem;
 }

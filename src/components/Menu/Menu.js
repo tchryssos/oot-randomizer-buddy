@@ -29,13 +29,18 @@ class Menu extends PureComponent {
 					<button className="menuButton" onClick={this.openMenu}>
 						<img src={Hamburger} alt="Hamburger menu icon" />
 					</button>
+					<div>
+						Ocarina of Time Randomizer Buddy
+					</div>
 					<div className={`dropDown isMenuOpen-${this.state.isMenuOpen}`}>
-						<button
-							className="closeButton menuButton"
-							onClick={this.closeMenu}
-						>
-							X
-						</button>
+						<div>
+							<button
+								className="closeButton menuButton"
+								onClick={this.closeMenu}
+							>
+								X
+							</button>
+						</div>
 						<ViewCheckbox
 							label="Simple View"
 							onClick={toggleView}
