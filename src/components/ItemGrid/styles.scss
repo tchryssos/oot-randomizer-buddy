@@ -1,13 +1,34 @@
+// ItemGrid
+.itemContainer {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// Grid
 .itemGridLabel {
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-// Simple View
-.itemContainer {
-    max-width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.showGrid-true {
+    display: block;
+}
+
+.showGrid-false {
+    display: none;
+}
+
+.chevron {
+    transition: 0.1s ease-in-out;
+}
+
+.chevronRotated-false {
+    transform: rotate(0deg);
+}
+
+.chevronRotated-true {
+    transform: rotate(-90deg);
 }

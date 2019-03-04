@@ -13,6 +13,8 @@ export default class Grid extends PureComponent {
 		}
 	}
 
+	toggleGrid = () => this.setState({ isGridShowing: !this.state.isGridShowing })
+
 	gridBuilder = () => (
 		this.props.collection
 			.filter(item => (this.context.isRequiredOnly ? item.critical : item))
@@ -33,8 +35,13 @@ export default class Grid extends PureComponent {
 	render = () => (
 		<>
 			<div className="itemGridLabel">
+				<img
+					src={Chevron}
+					alt="close section chevron"
+					onClick={this.toggleGrid}
+					className={`chevronRotated-${!this.state.isGridShowing} chevron`}
+				/>
 				{this.props.label}
-				<img src={Chevron} alt="close section chevron" />
 			</div>
 			<div className={`showGrid-${this.state.isGridShowing}`}>
 				{this.gridBuilder()}
